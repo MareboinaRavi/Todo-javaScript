@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    background: #ecf0f1;
+}
+.container{
+    width: 60%;
+    margin: auto;
+    margin-top: 150px;
+    height: 80vh;
+}
+hr{
+    height: 5px;
+    background-color: black;
+}
+input#inputId{
+    color: black;
+    background: white;
+    width: 60%;
+    /* padding: 5px; */
+    height: 6vh;
+    position: relative;
+    left: 230px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    font-size: 18px;
+    /* width: 220px; */
+}
+h2{
+   text-align: center;
+}
+input[type=email] {
+	display: none;
+}
+.editM input[type=email] {
+	display: block;
+    font-size: 16px;
+    border: none;
+    background: white;
+}
+.editM label {
+	display: none;
+}
+.const{
+    display: flex;
+}
+#tooo label{
+    text-decoration: line-through;
+}
+h4{
+    color: grey;
+    text-align: center;
+    cursor: pointer;
+}
+.editClass{
+    cursor: pointer;
+    padding: 5px;
+    color: grey;
+}
+.valClass{
+    padding:5px;
+    /* color: tomato; */
+}
+.delClass{
+    cursor: pointer;
+    padding: 5px;
+    color: grey;
+}
+.added{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    align-items: center;
+    /* padding-top: 1em; */
+}
+.inputClass{
+    position: relative;
+}
+.ulclass{
+    position: relative;
+}
